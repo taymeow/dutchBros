@@ -6,6 +6,7 @@
 .navbar {
     background:#006098;   /* for latest browsers */
     color: white;
+    min-height: 56px;
  }
 
  .nav-link > i{
@@ -15,3 +16,8 @@
  a.nav-link{
     color:white !important;
  }
+
+ .navbar-toggler-bar{
+   background:white !important;
+ }
+ 
