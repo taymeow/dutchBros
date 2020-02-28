@@ -7,6 +7,7 @@ import { ComponentsComponent } from './components/components.component';
 import { OurStoryComponent } from './examples/our-story/our-story.component';
 import { LandingComponent } from './examples/landing/landing.component';
 import { LocationComponent } from './examples/location/location.component';
+import { MenuComponent} from './examples/menu/menu.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 
 const routes: Routes =[
@@ -14,6 +15,7 @@ const routes: Routes =[
     { path: 'docs',             component: ComponentsComponent },
     { path: 'our-story',     component: OurStoryComponent },
     { path: 'location',     component: LocationComponent },
+    { path: 'menu',     component: MenuComponent },
     { path: '',          component: LandingComponent },
     { path: 'nucleoicons',      component: NucleoiconsComponent }
 ];

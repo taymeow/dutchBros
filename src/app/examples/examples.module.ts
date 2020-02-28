@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingComponent } from './landing/landing.component';
 import { OurStoryComponent } from './our-story/our-story.component';
 import { LocationComponent } from './location/location.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
     imports: [
@@ -16,7 +17,8 @@ import { LocationComponent } from './location/location.component';
     declarations: [
         LandingComponent,
         OurStoryComponent,
-        LocationComponent
+        LocationComponent,
+        MenuComponent
     ]
 })
 export class ExamplesModule { }
