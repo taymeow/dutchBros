@@ -80,8 +80,7 @@
               "src/assets/css/nucleo-icons.css"
             ],
             "assets": [
-              "src/assets",
-              "src/favicon.ico"
+              "src/assets"
             ]
           }
         },
