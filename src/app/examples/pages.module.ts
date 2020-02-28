@@ -21,4 +21,4 @@ import { MenuComponent } from './menu/menu.component';
         MenuComponent
     ]
 })
-export class ExamplesModule { }
+export class PagesModule { }

@@ -9,8 +9,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
+import { PagesModule } from './examples/pages.module';
 
 
 @NgModule({
@@ -24,8 +23,7 @@ import { ExamplesModule } from './examples/examples.module';
     NgbModule.forRoot(),
     FormsModule,
     RouterModule,
-    ComponentsModule,
-    ExamplesModule,
+    PagesModule,
     AppRoutingModule,
   ],
   providers: [],
